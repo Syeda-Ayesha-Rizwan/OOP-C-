@@ -1,26 +1,24 @@
 #include <iostream>
 using namespace std;
 
-class Product {
+class Product{
     string name;
     int id;
     double price;
 public:
-    Product() { 
-	 } 
+   
     Product(string n, int i, double p) { 
 	 name=n;
 	 id=i;
 	 price=p; 
 	 
  }
-    string getName() {
-	 return name; 
-	 }
-    double getPrice() {
-	 return price; 
-	 }
-};
+    void displayProduct() {
+        cout << "Product ID: " << productID << endl;
+        cout << "Name: " << productName << endl;
+        cout << "Price: Rs. " << price <<endl;
+}
+    };
 
 class Order {
     int orderID;
