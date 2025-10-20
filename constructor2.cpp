@@ -23,5 +23,8 @@ class Rectangle {
         Rectangle r2;
         r1.display();
         r2.display();
+        Rectangle r3(44 , 55 );
+        r3.display();
     }
+
 
