@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 class Student {
@@ -14,10 +13,10 @@ class Student {
     public:
 
 void getdetails(){
-cout << "Enter details: "<< endl;
+cout <<"Enter details: "<< endl;
 cout <<"id : "<< endl;
 cin>> id;
-cout <<" firstname: "<< endl;
+cout <<"Firstname: "<< endl;
 cin>> firstname;
 
 cout <<"lastname : "<< endl;
@@ -26,29 +25,29 @@ cin>> lastname;
 cout <<"contact : "<< endl;
 cin>> contact;
 
-cout <<" city: "<< endl;
+cout <<"city: "<< endl;
 cin>>city ;
 
-cout <<" dob: "<< endl;
+cout <<"dob: "<< endl;
 cin>> dob;
 
-cout <<" semester: "<< endl;
+cout <<"semester: "<< endl;
 cin>> semester;
 
-cout <<" numofcourses: "<< endl;
+cout <<"numofcourses: "<< endl;
 cin>> numofcourses;
 
 }
 void  display(){
-cout<<" =====Student Details===="<<endl;
-cout <<"id : "<< id<<endl;
-cout <<" firstname: "<<firstname<< endl;
-cout <<"lastname : "<<lastname<< endl;
-cout <<"contact : "<<contact<< endl;
-cout <<" city: "<< city<<endl;
-cout <<" dob: "<<dob<< endl;
-cout <<" semester: "<<semester<< endl;
-cout <<" numofcourses: "<<numofcourses<< endl;
+cout<<" =====Student Details====\n"<<endl;
+cout <<"Id : "<< id<<endl;
+cout <<"Firstname: "<<firstname<< endl;
+cout <<"Lastname : "<<lastname<< endl;
+cout <<"Contact : "<<contact<< endl;
+cout <<"City: "<< city<<endl;
+cout <<"DOB: "<<dob<< endl;
+cout <<"Semester: "<<semester<< endl;
+cout <<"Num Of Courses: "<<numofcourses<< endl;
 
     }
 };
